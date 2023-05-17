@@ -1,11 +1,22 @@
 import './App.css'
+import Home from '../Home'
+import MyAccount from '../MyAccount'
+import MyOrder from '../MyOrder'
+import MyOrders from '../MyOrders'
+import NotFound from '../NotFound'
+import Singin from '../Singin'
 
 function App() {
 
   return (
     <>
       <div className='bg-red-100'>
-        Hola mundo
+        <Home />
+        <MyAccount />
+        <MyOrder />
+        <MyOrders />
+        <NotFound />
+        <Singin />
       </div>
 
     </>
