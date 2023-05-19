@@ -3,10 +3,10 @@ import { NavLink } from 'react-router-dom'
 
 const Navbar = () => {
     return (
-        <nav>
+        <nav className='flex justify-between items-center fixed z-10 w-full py-5 px-8 text-sm font-light'>
             {/*Left side of navbar */}
-            <ul>
-                <li>
+            <ul className='flex items-center gap-3'>
+                <li className='font-semibold'>
                     <NavLink to="/">
                         Shopi
                     </NavLink>
@@ -44,7 +44,7 @@ const Navbar = () => {
             </ul>
 
             {/*Rigth side of navbar */}
-            <ul>
+            <ul className='flex items-center gap-3'>
                 <li>
                     yo@gmail.com
                 </li>
