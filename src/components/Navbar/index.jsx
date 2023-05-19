@@ -2,7 +2,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 
 const Navbar = () => {
-    const activeStyle = "underline underline-offset-4"
+    const activeStyle = "underline underline-offset-4" // add the underline property of tailwind to show which element is currently selected
 
     return (
         <nav className='flex justify-between items-center fixed z-10 w-full py-5 px-8 text-sm font-light'>
